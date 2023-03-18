@@ -1,0 +1,143 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body {
+  background-color: cadetblue;
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQI-SaYWlXmVicHWYEEpRgrmFir507tWQk3pA&usqp=CAU);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.container {
+  border: 3px solid black;
+  background-color: aquamarine;
+  color: black;
+  width: 800px;
+  height: 700px;
+  margin-left: 300px;
+  margin-top: 10px;
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQwhlbi9wHABB2TPuZp5YmzpwXT8G3fMNXJglIlYuCP&s);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-top-left-radius: 80px;
+  border-bottom-right-radius: 80px;
+}
+h1 {
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 50px;
+  color: #fff;
+}
+.userdetails {
+  margin-left: 100px;
+  border: 3px solid black;
+  background-color: blanchedalmond;
+  width: 600px;
+  height: 500px;
+  border-top-left-radius: 80px;
+  border-bottom-right-radius: 81px;
+}
+.first {
+  padding: 10px;
+  margin-left: 22px;
+  width: 50%;
+  margin-bottom: 5px;
+}
+input[type="text"] {
+  width: 73%;
+  padding: 10px;
+}
+
+.fa-user {
+  size: 50px;
+}
+
+.parent {
+  display: flex;
+  margin-top: 20px;
+}
+.last {
+  margin-top: 10px;
+  width: 50%;
+}
+
+.ab {
+  margin-left: 30px;
+}
+.email {
+  margin-bottom: 10px;
+}
+input[type="email"] {
+  padding: 10px;
+  width: 194px;
+  /* margin-bottom: 10px; */
+}
+.contact {
+  margin-bottom: 10px;
+}
+input[type="tel"] {
+  padding: 10px;
+  width: 194px;
+  /* margin-bottom: 10px; */
+}
+.gender {
+  margin-bottom: 10px;
+}
+input[type="radio"] {
+  /* margin-bottom: 10px; */
+}
+.password {
+  margin-bottom: 10px;
+}
+input[type="password"] {
+  padding: 10px;
+  width: 194px;
+}
+input[type="password"]:focus {
+  background-color: rgb(236, 220, 251);
+  opacity: 0.2;
+}
+
+.cnf {
+  margin-bottom: 10px;
+}
+input[type="cnf"] {
+  width: 194px;
+  padding: 10px;
+}
+.option {
+  margin-bottom: 10px;
+}
+.country {
+  width: 194px;
+  padding: 10px;
+  margin-left: 18px;
+}
+.termcondition {
+  color: crimson;
+  border: 1px solid black;
+  background-color: chartreuse;
+  width: 90%;
+  margin-bottom: 10px;
+}
+.submitbutton {
+  text-align: center;
+  margin-bottom: 10px;
+}
+input[type="submit"] {
+  width: 80%;
+  margin-right: 40px;
+  padding: 10px;
+  color: #fff;
+  background-color: dodgerblue;
+  cursor: pointer;
+}
+input[type="submit"]:hover {
+  background-color: darkturquoise;
+}
+input{
+  border: 2px solid black;
+  border-top-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}

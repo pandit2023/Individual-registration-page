@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registration form</title>
+    <link rel="stylesheet" href="regstyle.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div class="container" >
+      <h1>Registration Form</h1>
+      <form class="userdetails" id="fill">
+        <div class="parent">
+          <div class="first">
+            <i class="fa fa-user"></i>
+            <input type="text" placeholder="First Name" />
+          </div>
+          <div class="last">
+            <i class="fa fa-user"></i>
+            <input type="text" placeholder="Last Name" />
+          </div>
+        </div>
+      <div class="ab">
+        <div class="email">
+          <i class="fa fa-envelope"></i>
+          <input type="email" placeholder="Enter emaill" />
+        </div>
+
+        <div class="contact">
+          <i class="fa fa-phone"></i>
+          <input type="tel" placeholder="Enter contact" />
+        </div>
+
+        <div class="gender">
+          <label for="">Gender-:</label>
+          <input type="radio" name="sex" />
+          <span>male</span>
+          <input type="radio" name="sex" />
+          <span>female</span>
+        </div>
+
+        <div class="password">
+          <i class="fa fa-lock"></i>
+          <input type="password" placeholder="password" />
+        </div>
+
+        <div class="cnf">
+          <i class="fa fa-lock"></i>
+          <input type="cnf" placeholder="confirm password" />
+        </div>
+
+        <div class="option">
+          <select class="country">
+            <option>select a country</option>
+            <option>india</option>
+            <option>japan</option>
+            <option>russia</option>
+          </select>
+          <div class="arrow"></div>
+        </div>
+
+        <div class="termcondition">
+          <input type="checkbox" />
+          <label for="">i agree with term and condition</label>
+        </div>
+
+        <div class="submitbutton">
+          <input type="submit" class="btn" value="Register" />
+        </div>
+      </div>    
+       
+      </form>
+    </div>
+  </body>
+</html>
